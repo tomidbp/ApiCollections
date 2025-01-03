@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "803769df-f275-4ce0-99e9-6687a7504f85",
+		"name": "Project 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "24187844"
+	},
+	"item": [
+		{
+			"name": "Create Booking",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 1POdFZRZbvb...qqillRxMr2z"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"range_start\": 1,\r\n    \"insert_before\": 3,\r\n    \"range_length\": 2\r\n}"
+				},
+				"url": "https://api.spotify.com/v1/playlists/3cEYpjA9oz9GiPac4AsH4n/tracks"
+			},
+			"response": []
+		},
+		{
+			"name": "Create booking",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\" : \"Jim\",\r\n    \"lastname\" : \"Brown\",\r\n    \"totalprice\" : 111,\r\n    \"depositpaid\" : true,\r\n    \"bookingdates\" : {\r\n        \"checkin\" : \"2018-01-01\",\r\n        \"checkout\" : \"2019-01-01\"\r\n    },\r\n    \"additionalneeds\" : \"Breakfast\"\r\n}"
+				},
+				"url": "https://restful-booker.herokuapp.com/booking"
+			},
+			"response": []
+		}
+	]
+}

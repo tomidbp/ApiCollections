@@ -1,0 +1,44 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "John",
+      "location": "India",
+      "phone": "1234567890",
+      "courses": [
+        "Java",
+        "Selenium"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Kim",
+      "location": "US",
+      "phone": "1212345678",
+      "courses": [
+        "Python",
+        "Appium"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Smith",
+      "location": "Canada",
+      "phone": "0987654321",
+      "courses": [
+        "C#",
+        "RestAPI"
+      ]
+    },
+    {
+      "id": "0276",
+      "name": "Britney",
+      "location": "Belgium",
+      "phone": "3213455",
+      "courses": [
+        "JavaScript",
+        "C++"
+      ]
+    }
+  ]
+}
